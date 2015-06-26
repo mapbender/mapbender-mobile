@@ -1,0 +1,23 @@
+{
+    "name": "mapbender/mobile",
+    "description": "Mapbender mobile template",
+    "keywords": ["mapbender", "mobile"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Schmidt"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mapbender\\MobileBundle": "src/"
+        }
+    }
+}
